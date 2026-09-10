@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Meddon&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  overflow: hidden;
+}
+.container {
+  margin: 5%;
+}
+.split {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 10px;
+}
+
+img #picture {
+  border: 13px solid gray;
+  border-style: inset;
+}
+.right {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+h1 {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+h3 {
+  font-family: "Jim Nightshade", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.4rem;
+}
+h4 {
+  color: rgb(186, 186, 186);
+  transform: translateY(-68px) translateX(30px);
+  font-family: "Meddon", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#door {
+  z-index: 10;
+}
+.kaiser {
+  position: absolute;
+  top: 57%;
+  left: 69%;
+  z-index: 1;
+}
