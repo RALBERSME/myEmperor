@@ -7,7 +7,7 @@
 
 body {
   background-color: black;
-  overflow: hidden;
+  overflow: scroll;
   color: white;
   font-family: "Jim Nightshade", cursive;
   font-weight: 400;
