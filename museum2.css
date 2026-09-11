@@ -45,6 +45,7 @@ button {
   overflow: hidden;
   animation: extendBtn linear 5s infinite;
   position: relative;
+  margin-bottom: 35px;
 }
 
 button::before {
@@ -63,6 +64,7 @@ button::before {
     #fff 100%
   );
   transform: translate(-50%, -50%);
+  margin-bottom: 35px;
 }
 
 button::after {
@@ -76,6 +78,7 @@ button::after {
   transform: translate(-50%, -50%);
   border-radius: var(--radius);
   backdrop-filter: blur(10vh);
+  margin-bottom: 35px;
 }
 
 button span {
