@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow: scroll;
+  background-color: rgba(218, 165, 32, 0.4);
+  background-color: #e4d9bc;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23cfa743' fill-opacity='0.97'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.container {
+  background-image: url(Images/berlin.jpg);
+  background-size: cover;
+  margin: 5% 15%;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 15px;
+  color: white;
+  border: 2px solid white;
+  border-width: 1px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#heading {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  padding: 50px 150px;
+  background: black;
+  color: #fff;
+  font-family: monospace;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  animation: extendBtn linear 5s infinite;
+  position: relative;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  aspect-ratio: 1/1;
+  width: 500%;
+  height: auto;
+  border-radius: 50%;
+  background: conic-gradient(
+    #fff 0%,
+    #e2bf0f 3%,
+    rgb(153, 143, 0) 60%,
+    #fff 100%
+  );
+  transform: translate(-50%, -50%);
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - var(--border));
+  height: calc(100% - var(--border));
+  background: rgba(0, 0, 0, 0.993);
+  transform: translate(-50%, -50%);
+  border-radius: var(--radius);
+  backdrop-filter: blur(10vh);
+}
+
+button span {
+  display: block;
+  position: absolute;
+  text-wrap: nowrap;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+@keyframes extendBtn {
+  0% {
+    border: 0 transparent solid;
+  }
+  25% {
+    border: 15px rgb(241, 218, 159) solid;
+    width: 100%;
+  }
+  50% {
+    border: 15px transparent solid;
+    width: 100%;
+  }
+  100% {
+    border: 0 transparent solid;
+  }
+}
+
+@media (min-width: 768px) {
+  li {
+    list-style: none;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 25px;
+    color: white;
+    border: 2px solid white;
+  }
+  .item {
+    display: flex;
+    gap: 30px;
+  }
+  #heading {
+    display: inline;
+    flex-direction: row;
+  }
+}

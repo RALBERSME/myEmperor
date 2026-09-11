@@ -7,37 +7,38 @@
 
 body {
   background-color: white;
-  overflow: hidden;
 }
 .container {
-  margin: 5%;
+  margin: 1%;
 }
-.split {
+/* .split {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
   gap: 10px;
-}
+} */
 
 img #picture {
   border: 13px solid gray;
   border-style: inset;
 }
-.right {
+.left {
+  display: none;
   text-align: center;
-  position: relative;
-  z-index: 10;
 }
+
 h1 {
   font-family: "Jim Nightshade", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 2.5rem;
+  margin-top: 5%;
+  text-align: center;
 }
 h3 {
   font-family: "Jim Nightshade", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 2.4rem;
+  font-size: 1.4rem;
+  text-align: center;
 }
 h4 {
   color: rgb(186, 186, 186);
@@ -46,12 +47,66 @@ h4 {
   font-weight: 400;
   font-style: normal;
 }
-#door {
-  z-index: 10;
-}
+
 .kaiser {
   position: absolute;
-  top: 57%;
-  left: 69%;
+  top: 41.2%;
+  left: 30%;
   z-index: 1;
+}
+#door {
+  transform: translateX(-280px);
+  position: relative;
+  z-index: 10;
+}
+@media (min-width: 968px) {
+  body {
+    overflow: hidden;
+  }
+  .container {
+    margin: 5%;
+  }
+  .split {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 10px;
+  }
+
+  h1 {
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    margin-top: 0%;
+  }
+  h3 {
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4rem;
+  }
+  h4 {
+    color: rgb(186, 186, 186);
+    transform: translateY(-68px) translateX(30px);
+    font-family: "Meddon", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .right {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+  .left {
+    display: inline;
+  }
+  .kaiser {
+    position: absolute;
+    top: 57%;
+    left: 69%;
+    z-index: 1;
+  }
+  #door {
+    transform: translateX(0px);
+  }
 }

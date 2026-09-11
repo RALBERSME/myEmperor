@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  background-image: url(https://cdn.pixabay.com/photo/2020/01/20/22/21/palace-4781577_1280.jpg);
+}
+.container,
+.container2 {
+  margin: 5%;
+  position: relative;
+  border-radius: 10px;
+  color: wheat;
+}
+.top {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 3%;
+  margin-bottom: 1%;
+}
+.novel {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 3%;
+  margin-bottom: 1%;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  flex-direction: column;
+  gap: 20px;
+}
+#kaiser {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+}
+.rahmen {
+  border: 10px solid wheat;
+  border-style: inset;
+  border-radius: 5px;
+  border-width: 6px;
+}
+h1 {
+  font-size: 2.8rem;
+  font-family: "UnifrakturMaguntia", cursive;
+  text-align: center;
+}
+#heading {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  font-size: 1.8rem;
+  font-family: "UnifrakturMaguntia", cursive;
+  text-align: center;
+}
+h2 {
+  font-size: 1.6rem;
+  font-family: "UnifrakturMaguntia", cursive;
+  text-align: center;
+  font-weight: 300;
+}
+h3 {
+  font-size: 1.1rem;
+}
+.hammer {
+  position: absolute;
+  animation: changeTitle linear 2s forwards;
+}
+#hammer {
+  transform: scale(0.8);
+}
+@keyframes changeTitle {
+  from {
+    top: -7.5%;
+    left: 100%;
+    transform: translateX(0%);
+  }
+  to {
+    top: -7.5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 5px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  color: wheat;
+}
+
+a:hover {
+  background-color: #777;
+  color: wheat;
+}
+
+@media (min-width: 768px) {
+  .rahmen {
+    border: 10px solid wheat;
+    border-style: inset;
+    border-radius: 5px;
+  }
+  #kaiser {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 6rem;
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+  }
+
+  p {
+    font-size: 4rem;
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 1.35rem;
+  }
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  .hammer {
+    position: absolute;
+    animation: changeTitle linear 2s forwards;
+  }
+  #hammer {
+    transform: scale(1);
+  }
+  @keyframes changeTitle {
+    from {
+      top: 0%;
+      left: 110%;
+    }
+    to {
+      top: 0%;
+      left: 50%;
+    }
+  }
+  #heading {
+    display: inline;
+    flex-direction: row;
+  }
+  .novel {
+    text-align: center;
+  }
+}
