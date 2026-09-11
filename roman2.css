@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  background-image: url(https://cdn.pixabay.com/photo/2020/01/20/22/21/palace-4781577_1280.jpg);
+}
+.container {
+  margin: 5%;
+  position: relative;
+  border-radius: 10px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 15px;
+  color: rgb(251, 241, 223);
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-family: "UnifrakturMaguntia", cursive;
+  text-align: center;
+}
+
+p {
+  font-size: 1.8rem;
+  font-family: "UnifrakturMaguntia", cursive;
+  text-align: center;
+}
+h2 {
+  font-size: 1.6rem;
+  font-family: "UnifrakturMaguntia", cursive;
+  text-align: center;
+  font-weight: 300;
+}
+h3 {
+  font-size: 1.1rem;
+}
+
+a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  padding: 5px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  color: wheat;
+}
+
+a:hover {
+  background-color: #777;
+  color: wheat;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+  }
+
+  p {
+    font-size: 4rem;
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-family: "UnifrakturMaguntia", cursive;
+    text-align: center;
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 1.35rem;
+  }
+  .container {
+    margin: 5% 10%;
+    position: relative;
+    border-radius: 10px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 35px;
+    color: rgb(251, 241, 223);
+  }
+}
