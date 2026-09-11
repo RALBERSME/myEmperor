@@ -59,6 +59,15 @@ h4 {
   position: relative;
   z-index: 10;
 }
+
+@media (max-width: 499px) {
+  .kaiser {
+    position: absolute;
+    top: 54%;
+    left: 24%;
+    z-index: 1;
+  }
+}
 @media (min-width: 968px) {
   body {
     overflow: hidden;
