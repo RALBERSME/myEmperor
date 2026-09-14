@@ -1,0 +1,46 @@
+let utterance = null;
+
+function starteVorlesen() {
+  window.speechSynthesis.cancel();
+
+  const text =
+    "Kapitel acht, Die dritte Rückkehr: Das barfüßige Erwachen. Das abgedunkelte Schlafzimmer im Schloss Friedrichshof im Taunus roch nach Tod, Morphium und dem schweren, süßlichen Duft von welkenden Rosen. Es war der 5. August 1901. Durch die schweren, zugezogenen Samtvorhänge drang nur ein einzelner, schmaler Strahl der Abendsonne. Er schnitt wie ein goldenes Messer durch den Raum und beleuchtete die tanzenden Staubkörner in der Luft. Am Bett der sterbenden Kaiserin Victoria standen sie stramm, Graf von Wedel, der Hofmarschall, zwei Leibärzte in schwarzen Gehröcken und eine Entourage von Hofdamen, die die Hände starr vor dem Bauch gefaltet hatten. Ihre Gesichter waren steinerne Masken der Etikette. Niemand weinte. Niemand wagte es, schwer zu atmen. Das preußische Hofprotokoll duldete selbst im Angesicht des Todes keine ungefilterte menschliche Regung. Es war das Militär, das stur nach vorne blickte, um den Schein der kaiserlichen Unfehlbarkeit bis zur letzten Sekunde zu wahren. Wilhelm saß auf einem niederen Stuhl direkt am Kopfende des Bettes. Er trug die schlichte Uniform der Garde-Husaren, doch in seinem Inneren war er nackt. Die Lektion der dritten Sitzung vibrerte in jeder Faser seines Nervensystems. Er sah seine Mutter an. Sie lag flach auf den Kissen, das Gesicht vom Krebs eingefallen, die Lippen trocken und rissig, die Augen geschlossen. Ihr Atem kam rasselnd, flach und schwer, ein mechanisches Sägen, das das Verstummen einer ganzen Epoche ankündigte. Nach dem alten, historischen Drehbuch hätte Wilhelm jetzt steif dasitzen müssen. Er hätte als Kaiser die offizielle Trauer der Nation repräsentieren, die Ärzte nach dem medizinischen Protokoll befragen und darauf achten müssen, dass sein verkrüppelter linker Arm vorschriftsmäßig unter der Uniformjacke verborgen blieb. Er hätte die Fassade der Stärke bis zum letzten Atemzug seiner Mutter verteidigt. Doch Wilhelm brach das Muster. Er tat etwas, das die anwesenden Hofbeamten in Entsetzen versetzte. Er stand auf, legte seinen Prunksäbel mit einem harten, metallischen Klacken auf den Nachttisch und streifte die weißen Glacéhandschuhe von seinen Händen. Er warf sie einfach zu Boden. Dann kniete er sich direkt neben das Bett in den schweren Teppich, barfüßig im Geiste, befreit von den Schuhen der kaiserlichen Anpassung. Graf von Wedel zuckte zusammen. Er machte einen halben Schritt nach vorne, die Hand im Reflex erhoben, als müsse er eine Majestätsbeleidigung verhindern. Eure Majestät, das Protokoll, flüsterte er mit ersterbender Stimme. Wilhelm hob die rechte Hand, ohne den Blick von seiner Mutter abzuwenden. Es war keine Geste des imperialen Befehls mehr. Es war die ruhige, unumstößliche Präsenz eines Mannes, der die Spielregeln der Fassadenwelt verlassen hatte. Schweigen Sie, Wedel“, sagte Wilhelm leise. „Treten Sie alle zurück. Verlassen Sie den Raum. Die Ärzte und Hofdamen starrten einander ungläubig an. In ihren Augen stand die tiefe Irritation eines Systems, dessen Algorithmus plötzlich gelöscht wurde. Doch die neue, ungepanzerte Autorität, die von Wilhelm ausging, duldete keinen Widerspruch. Sie war keine Tyrannei, sie war die pure Kraft der Wahrheit. Langsam, wie Marionetten, denen man die Fäden abgeschnitten hatte, wichen die Hofbeamten zurück. Die schwere Eichentür schloss sich lautlos hinter ihnen. Wilhelm war allein mit der Frau, die ihn durch Kälte und schwarze Pädagogik gebrochen hatte. Er blickte auf ihre schmalen, blassen Finger, die kraftlos auf der Bettdecke lagen. Langsam hob er seine gesunde rechte Hand und umschloss ihre kalte Hand. Und dann tat er das, was er in den sechzig Jahren seines Lebens niemals gewagt hatte. Er holte seinen verkrüppelten linken Arm nach vorne. Er versteckte ihn nicht mehr. Er schämte sich nicht mehr für den Makel, den seine Mutter als Kränkung ihres eigenen Egos empfunden hatte. Er legte diesen kurzen, schwachen Arm ganz sanft unter den Nacken seiner Mutter, hob ihren Kopf ein Stück an und bettete ihn an seine Brust. In diesem Moment öffnete Kaiserin Victoria die Augen. Ihr Blick war fahl, getrübt vom Morphium und dem herannahenden Tod. Doch als sie in das Gesicht ihres Sohnes blickte, sah sie nicht den lauten, säbelrasselnden Kaiser mit dem hochgezwirbelten Schnurrbart. Sie sah das „Göttliche Kind“, das sie damals in die eiserne Kopfstreckmaschine gespannt hatte. Sie sah den Jungen, dem sie die Liebe verweigert hatte, um ihn hart zu machen. Und sie sah, dass dieser Junge sie hielt, ohne Panzer, ohne Vorwurf, im reinen Fluss der bedingungslosen Liebe. Wilhelm, hauchte sie, und eine feine, warme Träne löste sich aus ihrem Augenwinkel und verlor sich im Spitzenkragen ihres Nachthemdes. Es war keine kaiserliche Ansprache mehr. Es war das Erwachen einer traumatisierten Mutter, deren eigener Schutzwall in der Sekunde der echten Berührung kollabierte. Ich bin hier, Mutter, sagte Wilhelm leise, und die Tränen rannen ihm unaufhaltsam in den Bart. Du musst dich nicht mehr anstrengen. Du musst nicht mehr strammstehen vor der Geschichte. Dein Schmerz darf jetzt gehen. Ich lasse deine Scham bei dir, aber ich trage deinen Schatten nicht mehr weiter. Wir sind beide unschuldig. Ein tiefes, erlösendes Aufseufzen ging durch den sterbenden Körper der Kaiserin. Ihre Finger, die eben noch starr waren, drückten Wilhelms Hand ein letztes Mal mit einer überraschenden, zärtlichen Kraft. Die Kälte, die wie ein generationenübergreifender Fluch über ihrer Beziehung gelegen hatte, schmolz in diesem abgedunkelten Raum in Sekunden zusammen. Das ungelebte Leben der Kaiserzeit gab seine Waffen ab. Victoria schloss die Augen. Ihr nächster Atemzug war ruhig, tief und frei von dem quälenden Rasseln des Todeskampfes. Das System hatte aufgehört zu kämpfen. Sie schlief friedlich ein, gehalten von dem verkrüppelten Arm ihres Sohnes, den sie ein Leben lang zu heilen versucht hatte, und der nun zu ihrem Retter geworden war. Wilhelm hielt sie noch lange, während die Abendsonne hinter den Wäldern des Taunus versank. Er spürte, wie die chronische Anspannung, die wie ein eiserner Ring um seinen eigenen Brustkorb gelegen hatte, sich endgültig auflöste. Er war nicht mehr der Gefangene ihrer Kälte, er war der Heiler des Stammbaums. Als er die Hand seiner toten Mutter sachte auf das Laken zurücklegte und aufstand, verblasssen die Samtvorhänge und das Sterbezimmer des Schlosses Friedrichshof. Das matte Licht des Jahres 1901 wich wieder dem fahlen, unendlichen Weiß des Jenseits. Wilhelm saß wieder auf dem harten Holzstuhl der Ewigkeit. Die Treppe aus Morgentau im Nebel hatte nun eine dritte, mächtige Stufe bekommen, die im reinsten Licht erstrahlte. Der Knochenwald vor der Bronzepforte war an den Rändern tief in sich zusammengesunken, und ein warmer, sanfter Wind trug den Duft von frischen Gänseblümchen durch die Halle. Die Ahnenkette atmete spürbar auf. Doch aus der grauen Unendlichkeit formte sich bereits das Bild des nächsten Raumes. Ein Raum, der nach salziger Seeluft, schwerem Eichenholz und dem eisigen Dunst eines imperialen Schachturniers roch. Die vierte Sitzung wartete, das Aufeinandertreffen der gekrönten Cousins.";
+  utterance = new SpeechSynthesisUtterance(text);
+  const voices = window.speechSynthesis.getVoices();
+
+  const maleVoiceNames = [
+    "Microsoft Stefan",
+    "Microsoft Christoph",
+    "Google deutsch",
+    "Yannick",
+    "Markus",
+  ];
+
+  let selectedVoice = voices.find(
+    (voice) =>
+      voice.lang.startsWith("de") &&
+      maleVoiceNames.some((name) => voice.name.includes(name)),
+  );
+
+  if (!selectedVoice) {
+    selectedVoice = voices.find((voice) => voice.lang.startsWith("de"));
+  }
+
+  if (selectedVoice) {
+    utterance.voice = selectedVoice;
+  }
+
+  utterance.pitch = 0.75;
+  utterance.rate = 0.88;
+
+  window.speechSynthesis.speak(utterance);
+}
+
+function stoppeVorlesen() {
+  window.speechSynthesis.cancel();
+}
+
+if (window.speechSynthesis.onvoiceschanged !== undefined) {
+  window.speechSynthesis.onvoiceschanged = () =>
+    window.speechSynthesis.getVoices();
+}
